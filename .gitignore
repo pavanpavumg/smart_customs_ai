@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Databases
+*.sqlite3
+*.db
+risk_logs.db
+
+# Diagnostic scripts & logs
+diag_output.txt
+models_check.txt
+diagnose_api.py
+test_api.py
+email1.py
+email_drafts.py
